@@ -1,0 +1,30 @@
+﻿ИНСТРУКЦИЯ ПО ЗАПУСКУ ПРОЕКТА
+
+1. Установите зависимости:
+   pip install -r requirements.txt
+
+2. Скачайте датасет Goodbooks-10k с Kaggle:
+   https://www.kaggle.com/datasets/zygmunt/goodbooks-10k
+
+3. Распакуйте датасет в папку goodbooks-10k на одном уровне с проектом:
+   your-folder/
+   ├── book_recommender/   (этот проект)
+   └── goodbooks-10k/      (датасет)
+        ├── ratings.csv
+        ├── books.csv
+        ├── tags.csv
+        └── book_tags.csv
+
+4. Запустите проверку установки:
+   python check_installation.py
+
+5. Запустите основной скрипт:
+   python run_project.py
+
+6. Для детального анализа используйте Jupyter notebook:
+   jupyter notebook notebooks/analysis.ipynb
+
+ПРИМЕЧАНИЯ:
+- Проект создан для Python 3.11
+- Требуется минимум 4GB RAM
+- Полное выполнение занимает 10-15 минут
