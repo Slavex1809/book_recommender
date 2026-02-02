@@ -10,7 +10,7 @@
 - Коллаборативная фильтрация (Item-based CF)
 - Матричные разложения (SVD)
 - Гибридный подход
-
+        
 ## Структура проекта
 book_recommender/
 ├── data/ # Загрузка и предобработка данных
@@ -47,11 +47,11 @@ jupyter notebook notebooks/analysis.ipynb
 Метрики оценки
 Реализованные метрики:
 
-Precision@K
+Precision
 
-Recall@K
+Recall
 
-nDCG@K
+nDCG
 
 RMSE (для регрессионных моделей)
 
